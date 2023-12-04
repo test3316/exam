@@ -1,0 +1,21 @@
+.merged-input-icon {
+  display: flex;
+}
+
+.input-style {
+  width: 130px;
+  border-radius: 5px;
+  height: 40px;
+  border: 1px solid rgb(230, 230, 230);
+}
+.input-style::placeholder {
+  position: relative;
+  left: 18px;
+  color: black;
+}
+
+.icon {
+  position: relative;
+  right: 40px;
+  top: 7px;
+}

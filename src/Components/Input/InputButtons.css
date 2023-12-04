@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+}
+
+.container-1 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 120px;
+  right: 17px;
+}
+
+.container-color {
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+  width: 900px;
+  margin: auto;
+  margin-top: 100px;
+}

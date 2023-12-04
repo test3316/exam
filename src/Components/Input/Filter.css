@@ -1,0 +1,21 @@
+.filter {
+  display: flex;
+  width: 130px;
+  border-radius: 5px;
+  height: 40px;
+  border: 1px solid rgb(230, 230, 230);
+  position: relative;
+}
+
+.filter-text {
+  font-size: 13px;
+  position: relative;
+  bottom: 10px;
+  left: 25px;
+}
+
+.icon-location {
+  position: relative;
+  top: 12px;
+  left: 10px;
+}
