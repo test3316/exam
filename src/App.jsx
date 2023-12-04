@@ -1,13 +1,10 @@
-import Fetch from "./Components/Fetch/Fetch";
-import InputButtons from "./Components/Input/InputButtons";
 import "./App.css";
+import BasicContainer from "./Components/basicContainer/basicContainer";
+
 function App() {
   return (
     <>
-      <div>
-        <InputButtons />
-        <Fetch />
-      </div>
+      <BasicContainer />
     </>
   );
 }
