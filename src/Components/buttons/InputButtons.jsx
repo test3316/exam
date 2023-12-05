@@ -11,7 +11,7 @@ const InputButtons = (props) => {
   return (
     <div>
       <button
-        className="h-[50px] w-[170px] border-2 rounded-md flex justify-between items-center p-2 mx-2.5 text-sm	"
+        className="h-[50px] w-[170px] border-2 rounded-md flex justify-between items-center p-2 mx-2.5 text-sm"
         onClick={changeIcon}
       >
         {props.title}
