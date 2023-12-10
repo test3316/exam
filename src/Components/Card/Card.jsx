@@ -1,7 +1,11 @@
-const Card = () => {
+const Card = (props) => {
+  console.log(props);
+
   return (
     <div className="inline-block ">
-      <div className="flex-row bg-white h-[380px] w-[230px] rounded-md ml-[42px] mt-[10px]">
+      <div
+        className={`first-letter:first-line:flex-row bg-white h-[380px] w-[230px] rounded-md ml-[100px] mt-[10px]`}
+      >
         <div>
           <img
             className="rounded-t-md"

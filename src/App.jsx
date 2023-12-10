@@ -6,8 +6,7 @@ function App() {
   return (
     <>
       <BasicContainer />
-      <Card />
-      <Card />
+      <Card className="bg-red" />
       <Card />
       <Card />
     </>

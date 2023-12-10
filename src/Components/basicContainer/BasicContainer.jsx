@@ -6,7 +6,7 @@ SearchButton;
 const BasicContainer = () => {
   return (
     <>
-      <div className="flex flex-col bg-white justify-center h-[250px] w-[80%] rounded-2xl items-center mt-[10px] mx-auto">
+      <div className="flex flex-col bg-white justify-center h-[250px] w-[80%] rounded-2xl items-center mt-[30px] mx-auto">
         <div className="flex flex-wrap flex-raw ">
           <InputButtons title="მწარმოებელი" />
           <InputButtons title="მოდელი" />
